@@ -1,0 +1,50 @@
+body{max-width: 1000px;}
+@media screen and (max-width: 600px;){
+    body{font-size: 1.6vw;}
+    h1{font-size: 3.6vw;}
+    h2{font-size: 2.4vw;}
+    figcaption{font-size: 1.2vw;}
+    a{font-size: 5.0vw;}
+
+
+
+}
+    
+
+
+h1{font-weight: 36px;}
+
+h2{font-weight: 24px;}
+
+figcaption{font-weight: 12px;}
+
+a:hover{
+    background-color: blue
+
+    ;
+}
+a:active{
+    background-color: lightpink;color:lightblue
+;}
+
+a {
+    animation: purupuru2 0.1s infinite;
+}
+@keyframes purupuru2 {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(0.98, 0.95)
+    }
+}
+
+
+strong.gokubuto{background:linear-gradient
+    (transparent 10%,yellow 10%);
+}
+
+body{text-align: center;
+    margin:0 auto;}
+
+form{max-width: 900px;margin:0 auto;}
